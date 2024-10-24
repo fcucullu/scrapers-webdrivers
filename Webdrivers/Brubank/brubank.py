@@ -34,12 +34,12 @@ wait.until(EC.element_to_be_clickable((By.ID, "com.brubank:id/login_email_field"
 wait.until(EC.element_to_be_clickable((By.ID, "com.brubank:id/login_email_continue_button"))).click()
    
 #Ingresa clave
-wait.until(EC.element_to_be_clickable((By.XPATH, "(//android.widget.TextView[@resource-id='com.brubank:id/pin_title'])[9]"))).click()
-wait.until(EC.element_to_be_clickable((By.XPATH, "(//android.widget.TextView[@resource-id='com.brubank:id/pin_title'])[6]"))).click()
-wait.until(EC.element_to_be_clickable((By.XPATH, "(//android.widget.TextView[@resource-id='com.brubank:id/pin_title'])[5]"))).click()
-wait.until(EC.element_to_be_clickable((By.XPATH, "(//android.widget.TextView[@resource-id='com.brubank:id/pin_title'])[2]"))).click()
-wait.until(EC.element_to_be_clickable((By.XPATH, "(//android.widget.TextView[@resource-id='com.brubank:id/pin_title'])[8]"))).click()
-wait.until(EC.element_to_be_clickable((By.XPATH, "(//android.widget.TextView[@resource-id='com.brubank:id/pin_title'])[5]"))).click()
+wait.until(EC.element_to_be_clickable((By.XPATH, "(//android.widget.TextView[@resource-id='com.brubank:id/pin_title'])[X]"))).click()
+wait.until(EC.element_to_be_clickable((By.XPATH, "(//android.widget.TextView[@resource-id='com.brubank:id/pin_title'])[X]"))).click()
+wait.until(EC.element_to_be_clickable((By.XPATH, "(//android.widget.TextView[@resource-id='com.brubank:id/pin_title'])[X]"))).click()
+wait.until(EC.element_to_be_clickable((By.XPATH, "(//android.widget.TextView[@resource-id='com.brubank:id/pin_title'])[X]"))).click()
+wait.until(EC.element_to_be_clickable((By.XPATH, "(//android.widget.TextView[@resource-id='com.brubank:id/pin_title'])[X]"))).click()
+wait.until(EC.element_to_be_clickable((By.XPATH, "(//android.widget.TextView[@resource-id='com.brubank:id/pin_title'])[X]"))).click()
 
 # Confirmo el nuevo dispositivo
 wait.until(EC.element_to_be_clickable((By.ID, "com.brubank:id/information_primary_button"))).click()
